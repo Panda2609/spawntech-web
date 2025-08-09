@@ -1,0 +1,61 @@
+
+.navbar-container {
+    background-color: #282c34;
+    padding: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #61dafb;
+    flex: 0 0 auto;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 2em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s;
+    background-color: transparent;
+    padding: .5em 1em;
+    border-radius: .5em;
+}
+
+.navbar-links a:hover {
+    color: #61dafb;
+}
+
+.navbar-contact {
+    margin-left: auto;
+}
+
+.contact-btn {
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    padding: 0.5em 1.2em;
+    border-radius: 0.5em;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.contact-btn:hover {
+    background-color: #21a1f3;
+    color: #fff;
+}
